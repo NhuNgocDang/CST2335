@@ -3,4 +3,14 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Xin Chao</string>
     <string name="ButtonText">Nut Bam</string>
+    <string name="Login_Text">Dang Nhap</string>
+    <string name="Password_Text">Mat Khau</string>
+    <string name="radio_text">Cai nut</string>
+    <string name="checkbox_text">hop kiem tra</string>
+    <string name="switch_text">Ban muon lam gi?</string>
+    <string name="LoginButton">dang nhap</string>
+    <string name="dialog_message">Muon ket thuc sao?</string>
+    <string name="ok">Duoc</string>
+    <string name="cancel">Huy</string>
+
 </resources>

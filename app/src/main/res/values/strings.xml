@@ -2,4 +2,17 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="Login_Text">Login</string>
+    <string name="Password_Text">Password</string>d
+    <string name="radio_text">RadioButton</string>
+    <string name="checkbox_text">CheckBox</string>
+    <string name="switch_text">What does this do?</string>
+    <string name="LoginButton">Login</string>
+    <string name="dialog_message">Do you want to finish?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+
+
+
 </resources>
