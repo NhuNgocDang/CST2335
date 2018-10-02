@@ -10,7 +10,11 @@
     <string name="switch_text">Ban muon lam gi?</string>
     <string name="LoginButton">dang nhap</string>
     <string name="dialog_message">Muon ket thuc sao?</string>
-    <string name="ok">Duoc</string>
+    <string name="OK">Duoc</string>
     <string name="cancel">Huy</string>
+    <string name="startChatBt">Nut chem gio</string>
+    <string name="editText">Chinh sua doan van</string>
+    <string name="sendButton">Gui</string>
+    <string name="newText">tin nhan moi</string>
 
 </resources>
