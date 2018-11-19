@@ -65,7 +65,7 @@ public class ListItemsActivity extends Activity {
                 AlertDialog.Builder builder = new AlertDialog.Builder(ListItemsActivity.this);
                 builder.setMessage(R.string.dialog_message);
                 builder.setTitle(R.string.dialog_message);
-                builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                builder.setPositiveButton(R.string.OK, new DialogInterface.OnClickListener() {
 
                     @Override
                     public void onClick(DialogInterface dialog, int id) {

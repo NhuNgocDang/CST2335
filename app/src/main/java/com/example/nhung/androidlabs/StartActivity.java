@@ -13,6 +13,10 @@ import org.w3c.dom.Text;
 
 public class StartActivity extends Activity {
     protected static final String ACTIVITY_NAME = "StartActivity";
+    private Button bt;
+    private Button chatButton;
+    private Button weatherButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +24,34 @@ public class StartActivity extends Activity {
         setContentView(R.layout.activity_start);
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
-        Button bt = findViewById(R.id.button6);
+        bt = findViewById(R.id.button6);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent nextScreen = new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(nextScreen, 50);
                 Log.i(ACTIVITY_NAME,"In onClick()");
+            }
+        });
+
+        chatButton = findViewById(R.id.chatButton);
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent nextScreen1 = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(nextScreen1);
+                Log.i(ACTIVITY_NAME, "Use clicked Start Chat");
+            }
+        });
+
+        weatherButton = findViewById(R.id.weather);
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent nextScreen2 = new Intent(StartActivity.this, WeatherForecast.class);
+                startActivity(nextScreen2);
+                Log.i(ACTIVITY_NAME, "User clicks to start WeatherForecast");
+
             }
         });
     }
@@ -43,6 +68,7 @@ public class StartActivity extends Activity {
             toast.show();
 
         }
+
 
     }
 

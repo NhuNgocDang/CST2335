@@ -9,10 +9,13 @@
     <string name="switch_text">What does this do?</string>
     <string name="LoginButton">Login</string>
     <string name="dialog_message">Do you want to finish?</string>
-    <string name="ok">Ok</string>
+    <string name="OK">OK</string>
     <string name="cancel">Cancel</string>
-
-
+    <string name="startChatBt">Start Chat</string>
+    <string name="editText">Edit Text</string>
+    <string name="sendButton">Send</string>
+    <string name="newText">new text</string>
+    <string name="weather_forecast">Weather Forecast</string>
 
 
 </resources>

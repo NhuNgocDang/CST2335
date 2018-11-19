@@ -24,10 +24,15 @@
 
     <Button
         android:id="@+id/chatButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/startChatBt"
 
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather"
+        android:text="@string/weather_forecast"/>
 </LinearLayout>

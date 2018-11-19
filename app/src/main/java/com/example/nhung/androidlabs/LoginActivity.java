@@ -12,12 +12,9 @@ import android.widget.EditText;
 
 public class LoginActivity extends Activity {
     protected static final String ACTIVITY_NAME = "LoginActivity";
-
     private static final String EMAIL_KEY = "email_key";
     private static final String MY_DATA ="my_data";
-
     private SharedPreferences sharedPreferences;
-
     private Button loginButton;
     private EditText emailEditText;
 

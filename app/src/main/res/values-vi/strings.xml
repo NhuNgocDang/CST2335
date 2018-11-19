@@ -16,5 +16,6 @@
     <string name="editText">Chinh sua doan van</string>
     <string name="sendButton">Gui</string>
     <string name="newText">tin nhan moi</string>
+    <string name="weather_forecast">Thoi tiet</string>
 
 </resources>
