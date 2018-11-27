@@ -16,6 +16,7 @@ public class StartActivity extends Activity {
     private Button bt;
     private Button chatButton;
     private Button weatherButton;
+    private Button toolbarButton;
 
 
     @Override
@@ -54,6 +55,17 @@ public class StartActivity extends Activity {
 
             }
         });
+
+        toolbarButton = findViewById(R.id.test_toolbar_button);
+        toolbarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent nextScreen3 = new Intent(StartActivity.this, TestToolBar.class);
+                startActivity(nextScreen3);
+                Log.i(ACTIVITY_NAME, "User clicks to start ToolBar");
+            }
+        });
+
     }
     @Override
     public void onActivityResult(int requestCode, int responseCode, Intent data){

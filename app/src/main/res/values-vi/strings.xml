@@ -17,5 +17,15 @@
     <string name="sendButton">Gui</string>
     <string name="newText">tin nhan moi</string>
     <string name="weather_forecast">Thoi tiet</string>
+    <string name="test_toolbar">Thanh cong cu</string>
+    <string name="item_one">Mot</string>
+    <string name="item_two">Hai</string>
+    <string name="item_three">Ba</string>
+    <string name="item_about">Thong tin</string>
+    <string name="dialog_tittle">Ban co muon quay lai khong?</string>
+    <string name="positive_button">Co</string>
+    <string name="negative_button">Khong</string>
+    <string name="dialog3_message">Tin nhan moi cua ban la gi?</string>
+    <string name="dialog3_edit_text">Nhap tin nhan moi di :*</string>
 
 </resources>

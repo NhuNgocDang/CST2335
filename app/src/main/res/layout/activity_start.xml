@@ -35,4 +35,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/weather"
         android:text="@string/weather_forecast"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_toolbar_button"
+        android:text="@string/text_toolbar"
+        />
 </LinearLayout>

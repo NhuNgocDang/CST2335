@@ -16,6 +16,15 @@
     <string name="sendButton">Send</string>
     <string name="newText">new text</string>
     <string name="weather_forecast">Weather Forecast</string>
+    <string name="text_toolbar">Tool Bar</string>
+    <string name="item_one">One</string>
+    <string name="item_two">Two</string>
+    <string name="item_three">Three</string>
+    <string name="dialog_tittle">Do you want to go back?</string>
+    <string name="positive_button">Yes</string>
+    <string name="negative_button">No</string>
+    <string name="dialog3_message">What is your new message?</string>
+    <string name="dialog3_edit_text">Type here</string>
 
 
 </resources>

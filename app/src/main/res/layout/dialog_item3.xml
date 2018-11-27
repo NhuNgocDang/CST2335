@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/item3_alert">
+
+    <ImageView
+        android:id="@+id/owl_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/owl"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/dialog_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog3_message"
+        android:layout_below="@+id/owl_picture"/>
+    <EditText
+        android:id="@+id/dialog_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog3_edit_text"
+        android:layout_below="@+id/dialog_text_view"/>
+
+</RelativeLayout>
