@@ -25,6 +25,7 @@
     <string name="negative_button">No</string>
     <string name="dialog3_message">What is your new message?</string>
     <string name="dialog3_edit_text">Type here</string>
+    <string name="item_about">About</string>
 
 
 </resources>
